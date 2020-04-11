@@ -1,0 +1,231 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .jumbotron{
+    background-image: url(./giraffe.jpeg);
+    background-size: cover;
+    height: 270px;
+  }
+
+  #h3Title{
+    padding:.5em 0em .2em 0em;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5%;
+  }
+  
+  #pTitle{
+    font-weight: 400;
+    padding: 0em 0em 1em 0em;
+  }
+
+  .container{
+    background-color: rgba(247, 247, 247, 0.6);
+    border-radius: .5em .5em;
+  }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .jumbotron{
+    background-image: url(./giraffe.jpeg);
+    background-size: cover;
+    height: 310px;
+  }
+
+  #h3Title{
+    padding:.5em 0em .2em 0em;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5%;
+  }
+  
+  #pTitle{
+    font-weight: 400;
+    padding: 0em 0em 1em 0em;
+  }
+
+  .container{
+    background-color: rgba(247, 247, 247, 0.6);
+    border-radius: .5em .5em;
+  }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .jumbotron{
+    background-image: url(./giraffe.jpeg);
+    background-size: cover;
+    height: 410px;
+  }
+
+  #h3Title{
+    padding:.5em 0em .2em 0em;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5%;
+  }
+  
+  #pTitle{
+    font-weight: 400;
+    padding: 0em 0em 1em 0em;
+  }
+
+  .container{
+    background-color: rgba(247, 247, 247, 0.6);
+    border-radius: .5em .5em;
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .jumbotron{
+    background-image: url(./giraffe.jpeg);
+    background-size: cover;
+    height: 510px;
+    position: relative;
+  }
+
+  
+  .container{
+    background-color: rgba(253, 253, 253, 0.7);
+    border-radius: .5em .5em;
+  }
+  
+  #h3Title{
+    padding:.5em 0em .2em 0em;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    padding-top: 10%;
+    padding-left: 12em;
+  }
+  
+  #pTitle{
+    font-weight: 400;
+    font-size: 1.75em;
+    /* padding: 0em 0em 1em 0em; */
+    position: absolute;
+    padding-bottom: 0%;
+    bottom: 0%;
+    right: 3%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron{
+    background-image: url(./giraffe.jpeg);
+    background-size: cover;
+    height:650px;
+    position: relative;
+  }
+
+  .container{
+    background-color: rgba(253, 253, 253, 0.7);
+    border-radius: .5em .5em;
+  }
+  
+  #h3Title{
+    padding:.5em 0em .2em 0em;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    left:15%;
+    padding-top: 10%;
+    padding-left: 12em;
+  }
+  
+  #pTitle{
+    font-weight: 400;
+    font-size: 1.75em;
+    padding: 0em 0em 1em 0em;
+    position: absolute;
+    padding-bottom: 0%;
+    bottom: 12%;
+    right:5%;
+  }
+
+ }
+
+ /* ======================================= */
+
+ .App {
+  /* text-align: center; */
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#logo{
+  font-weight: 400;
+  letter-spacing: .02em;
+  font-family: 'Sen', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding-right: .5em;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background: #b65c5c;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0em;
+}
+
+header h2 {
+  display:inline;
+  font-weight: 100;
+  padding-left: .5em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .3em;
+  color: #e3f3f8
+}
+
+
+
+#logo{
+  font-weight: 400;
+  letter-spacing: .02em;
+  font-family: 'Sen', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding-right: .5em;
+}
+
+#bookIcon{
+  padding-right: .4em;
+}
+
+.jumbotron{
+  background-image: url('giraffe.jpeg');
+}
+
+button{
+  border-radius: .7em .7em;
+  border: none;
+  padding: 0.25em 2em;
+  margin: 0 1em;
+  font-weight: 500;
+  background-color: rgb(252, 252, 252);
+}
+
+#inputBox{
+  border-radius: 0.7em 0.7em;
+  border:1px solid #bdb9b9;
+}
+
+footer{
+  margin-top:5em;
+}
