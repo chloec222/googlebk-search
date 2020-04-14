@@ -52,8 +52,10 @@ function apiRoutes(app) {
       .then((data) => res.json(data))
     })
 
-    app.delete("/api/savedbooks", (req, res)=>{
-      db.Book.findById({ _id: req. params.id}, req.body)
+
+    // :id finds the specific book by its id and deletes it
+    app.delete("/api/savedbooks/:id", (req, res)=>{
+      db.Book.findById({ _id: req.params.id}, req.body)
       .then((removedBook) => removedBook.remove())
       .then((removedBook) => res.json(removedBook));
     })
